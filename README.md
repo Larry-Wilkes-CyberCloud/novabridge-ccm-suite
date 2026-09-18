@@ -19,6 +19,10 @@ Across all six controls: **113 total exceptions**, **$1,447,898.34** in total qu
 
 Findings are ranked with a composite priority-scoring methodology that blends exception rate and dollar impact (weighted 40%/60%) into a single 0–100 score, so controls can be compared on a common scale even when only some of them produce a dollar figure. Controls without a quantified dollar impact are scored on exception rate alone rather than defaulted to a zero dollar score, which would otherwise understate their risk.
 
+## Repository structure
+
+`ccm_suite.py` is the polished, consolidated suite -- run this to reproduce the full six-control run described above. The `exercise1.py` through `exercise9.py` files are the individual practice exercises that led into it (one control/technique at a time); they're kept for the incremental build history, but `ccm_suite.py` is the artifact to read first.
+
 ## How to run it
 
 ```
